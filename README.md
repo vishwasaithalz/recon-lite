@@ -1,28 +1,38 @@
-# Recon Lite
+<p align="center"><img src="assets/recon-hero.svg" alt="Recon Lite custom project artwork" width="100%" /></p>
 
-A small, local-first HTTP security-header analyzer. Feed it a saved response-header block or JSON header map and it produces an educational review of common browser security headers.
+<p align="center">
+  <a href="https://github.com/vishwasaithalz/recon-lite/actions/workflows/tests.yml"><img src="https://github.com/vishwasaithalz/recon-lite/actions/workflows/tests.yml/badge.svg" alt="Recon Lite tests" /></a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+" />
+  <img src="https://img.shields.io/badge/Runtime-stdlib%20only-1f2937?style=flat-square" alt="Standard library only" />
+  <img src="https://img.shields.io/badge/Network%20requests-None-0f766e?style=flat-square" alt="No network requests" />
+</p>
 
-**No network scanning. No target requests. No telemetry.** Recon Lite analyzes files you provide, making it suitable for offline learning, lab notes, and repeatable defensive reviews.
+<p align="center"><strong>A focused offline review of saved HTTP response headers.</strong></p>
 
-## Features
+<p align="center">[Features](#-what-it-checks) · [Quick start](#-quick-start) · [Example](#-example-input) · [Safety](#-scope--safety)</p>
 
-- Parses raw HTTP response headers or a JSON header map.
-- Checks Content Security Policy, HSTS, MIME-sniffing protection, framing controls, Referrer Policy, and Permissions Policy.
-- Flags potentially revealing `Server` and `X-Powered-By` headers.
-- Produces readable text or machine-readable JSON.
-- Includes sample input and offline unit tests.
-- Uses only the Python standard library at runtime.
+## 🛰️ What it checks
 
-## Requirements
+Recon Lite reads a response-header block or JSON header map that you provide. It produces an educational review of common browser security controls.
 
-- Python 3.10 or newer
-- No runtime third-party dependencies
+- Content Security Policy.
+- HTTP Strict Transport Security.
+- MIME-sniffing protection.
+- Framing controls.
+- Referrer Policy.
+- Permissions Policy.
+- Potentially revealing `Server` and `X-Powered-By` headers.
+- Text or JSON output.
 
-## Quick start
+**No network scanning. No target requests. No telemetry.** This tool analyses local input files only.
 
-From the repository root:
+## ⚡ Quick start
+
+**Requirements:** Python 3.10 or newer. No runtime third-party dependencies.
 
 ```powershell
+git clone https://github.com/vishwasaithalz/recon-lite.git
+cd recon-lite
 py -3 -m recon_lite samples/headers-example.txt
 ```
 
@@ -32,11 +42,13 @@ JSON output:
 py -3 -m recon_lite samples/headers-example.txt --format json
 ```
 
-If the `py` launcher is unavailable, use `python` instead.
+Run tests:
 
-## Analyze your own saved headers
+```powershell
+py -3 -m unittest discover -s tests -v
+```
 
-Save a response-header block to a text file, for example:
+## 📄 Example input
 
 ```text
 HTTP/2 200
@@ -46,55 +58,34 @@ content-security-policy: default-src 'self'
 x-content-type-options: nosniff
 ```
 
-Then run:
+Save the headers to a local text file and pass its path to the CLI.
 
-```powershell
-py -3 -m recon_lite path\to\your-headers.txt
+## 🧭 Scope & safety
+
+The score is a learning aid based only on supplied headers. It is not a vulnerability scan, penetration test, compliance assessment, or proof that a site is secure. Header requirements depend on application architecture and deployment context.
+
+- Inspect only data you are authorised to review.
+- Do not commit cookies, authorisation values, internal hostnames, or customer headers.
+- The program does not open network connections or upload files.
+
+## 🗂️ Project structure
+
+```text
+recon_lite/       Parser and analysis logic
+samples/          Synthetic example headers
+tests/            Offline unit tests
+.github/          CI workflow
 ```
 
-You can also provide a JSON object whose keys are header names and whose values are strings:
+## 🗺️ Roadmap
 
-```json
-{
-  "content-type": "text/html",
-  "x-content-type-options": "nosniff"
-}
-```
+- [ ] Expand sanitised test fixtures for unusual header formatting.
+- [ ] Improve explanations and remediation guidance.
+- [ ] Add report output formats with clear evidence references.
+- [ ] Keep any future network functionality separate and explicitly opt-in.
 
-## Install as a command
+## 🤝 Contributing
 
-```powershell
-py -3 -m pip install .
-recon-lite samples/headers-example.txt
-```
+Reproducible examples and focused improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
-## What the result means
-
-The score is a lightweight learning aid based only on the headers supplied. It is **not** a vulnerability scan, penetration test, compliance assessment, or proof that a site is secure. Header requirements depend on application architecture and deployment context. Review each finding before changing production configuration.
-
-## Development
-
-Run the offline test suite:
-
-```powershell
-py -3 -m unittest discover -s tests -v
-```
-
-Run the CLI directly from the repository root:
-
-```powershell
-py -3 -m recon_lite samples/headers-example.txt
-```
-
-## Safety and privacy
-
-- The program never makes HTTP requests or opens network connections.
-- Input files are read locally and are not uploaded.
-- Do not commit real customer response headers, cookies, authorization values, internal hostnames, or other sensitive data.
-- Use only data you are authorized to inspect.
-
-See [SECURITY.md](SECURITY.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Project status
-
-This is an initial, deliberately narrow implementation. It focuses on repeatable analysis of supplied HTTP response headers before adding any network-facing functionality.
+<p align="center"><sub>Observe carefully. Interpret in context. Test only with permission.</sub></p>
