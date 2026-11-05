@@ -9,7 +9,7 @@
 
 <p align="center"><strong>A focused offline review of saved HTTP response headers.</strong></p>
 
-<p align="center">[Features](#-what-it-checks) · [Quick start](#-quick-start) · [Example](#-example-input) · [Safety](#-scope--safety)</p>
+<p align="center"><a href="#-what-it-checks">Features</a> · <a href="#-quick-start">Quick start</a> · <a href="#-example-input">Example</a> · <a href="#-scope--safety">Safety</a></p>
 
 ## 🛰️ What it checks
 
