@@ -89,3 +89,16 @@ tests/            Offline unit tests
 Reproducible examples and focused improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
 <p align="center"><sub>Observe carefully. Interpret in context. Test only with permission.</sub></p>
+
+
+<!-- KARMA VISUAL IDENTITY: START -->
+<div align="center">
+
+**RECONNAISSANCE / AUTHORIZED TESTING**
+
+<img src="https://img.shields.io/badge/KARMA-SYSTEMS-0f172a?style=for-the-badge" alt="KARMA Systems" /> <img src="https://img.shields.io/badge/BUILD-VERIFY-0f766e?style=for-the-badge" alt="Build and verify" />
+
+<sub>Designed for clarity. Built for evidence. No invented status metrics.</sub>
+
+</div>
+<!-- KARMA VISUAL IDENTITY: END -->
