@@ -1,3 +1,7 @@
+<!-- KARMA PROJECT IDENTITY / original art -->
+<p align="center"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/projects/recon-lite-v2.svg" alt="🔎 Recon Lite: HTTP response and security-header analysis" width="100%" /></p>
+<p align="center"><strong>🔎 Recon Lite</strong> · HTTP response and security-header analysis</p>
+
 <p align="center"><img src="assets/recon-hero.svg" alt="Recon Lite custom project artwork" width="100%" /></p>
 
 <p align="center">
