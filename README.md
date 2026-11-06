@@ -1,8 +1,14 @@
-<!-- KARMA PROJECT IDENTITY / original art -->
-<p align="center"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/projects/recon-lite-v2.svg" alt="🔎 Recon Lite: HTTP response and security-header analysis" width="100%" /></p>
+<!-- KARMA PROJECT IDENTITY / compact visual navigation -->
+<p align="center"><a href="https://recon-lite.vercel.app"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/tiles/recon-lite.svg" width="68%" alt="Open 🔎 Recon Lite project" /></a></p>
 <p align="center"><strong>🔎 Recon Lite</strong> · HTTP response and security-header analysis</p>
+<p align="center">
+<a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#terminal"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/terminal.svg" width="46%" alt="Explore safe security examples" /></a>
+<a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#snake"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/arcade.svg" width="46%" alt="Play the KARMA snake arcade" /></a>
+</p>
 
-<p align="center"><img src="assets/recon-hero.svg" alt="Recon Lite custom project artwork" width="100%" /></p>
+<details><summary>🎨 Open original full-size project artwork</summary>
+<p align="center"><img src="assets/recon-hero.svg" alt="Recon Lite custom project artwork" width="90%" /></p>
+</details>
 
 <p align="center">
   <a href="https://github.com/vishwasaithalz/recon-lite/actions/workflows/tests.yml"><img src="https://github.com/vishwasaithalz/recon-lite/actions/workflows/tests.yml/badge.svg" alt="Recon Lite tests" /></a>
