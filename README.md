@@ -9,8 +9,7 @@
 
 <p align="center"><a href="https://recon-lite.vercel.app"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/tiles/recon-lite.svg" width="68%" alt="Open 🔎 Recon Lite project" /></a></p>
 <p align="center"><strong>🔎 Recon Lite</strong> · HTTP response and security-header analysis</p>
-<details>
-<summary>Build and technology badges</summary>
+
 
 <p align="center">
 <a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#terminal"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/terminal.svg" width="46%" alt="Explore safe security examples" /></a>
@@ -22,6 +21,9 @@
 </details>
 
 </details>
+
+<details>
+<summary>Build and technology badges</summary>
 
 <p align="center">
   <a href="https://github.com/vishwasaithalz/recon-lite/actions/workflows/tests.yml"><img src="https://github.com/vishwasaithalz/recon-lite/actions/workflows/tests.yml/badge.svg" alt="Recon Lite tests" /></a>
