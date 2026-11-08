@@ -1,20 +1,17 @@
 <!-- VISHWAS.EXE UNIFIED THEME START -->
-<p align="center"><a href="https://recon-lite.vercel.app"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/brand/vishwas-exe-recon-lite.svg" width="100%" alt="VISHWAS.EXE uniform retro GitHub interface for Recon Lite, created by Vishwas Aithal" /></a></p>
-<p align="center"><strong>VISHWAS.EXE / Recon Lite</strong><br/>Offline HTTP response-header review<br/><sub>Designed and built by <strong>Vishwas Aithal</strong> · Same computer universe, its own personality</sub></p>
-<p align="center">
-  <a href="https://vishwasaithalz.github.io/vishwasaithalz/"><strong>💾 BOOT MANAGER</strong></a> &nbsp;·&nbsp;
-  <a href="https://vishwasaithalz.github.io/vishwasaithalz/overload/"><strong>🖥️ OVERLOAD OS</strong></a> &nbsp;·&nbsp;
-  <a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/"><strong>🎮 ARCADE</strong></a> &nbsp;·&nbsp;
-  <a href="https://github.com/vishwasaithalz?tab=repositories"><strong>📁 ALL PROJECTS</strong></a> &nbsp;·&nbsp;
-  <a href="https://vishwasaithal.ai.studio/"><strong>🌐 PORTFOLIO</strong></a>
-</p>
+<p align="center"><a href="https://recon-lite.vercel.app"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/brand/vishwas-exe-recon-lite.svg" width="100%" alt="Recon Lite. Original editorial illustration by Vishwas Aithal." /></a></p>
+
+<p align="center"><a href="https://vishwasaithalz.github.io/vishwasaithalz/">Personal index</a> &nbsp;·&nbsp; <a href="https://github.com/vishwasaithalz?tab=repositories">All projects</a> &nbsp;·&nbsp; <a href="https://vishwasaithal.ai.studio/">Portfolio</a></p>
 <!-- VISHWAS.EXE UNIFIED THEME END -->
 
 <details>
-<summary><strong>🎞 Open legacy project visuals and original navigation</strong></summary>
+<summary>Earlier artwork and navigation</summary>
 
 <p align="center"><a href="https://recon-lite.vercel.app"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/tiles/recon-lite.svg" width="68%" alt="Open 🔎 Recon Lite project" /></a></p>
 <p align="center"><strong>🔎 Recon Lite</strong> · HTTP response and security-header analysis</p>
+<details>
+<summary>Build and technology badges</summary>
+
 <p align="center">
 <a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#terminal"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/terminal.svg" width="46%" alt="Explore safe security examples" /></a>
 <a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#snake"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/arcade.svg" width="46%" alt="Play the Vishwas Aithal snake arcade" /></a>
@@ -32,6 +29,7 @@
   <img src="https://img.shields.io/badge/Runtime-stdlib%20only-1f2937?style=flat-square" alt="Standard library only" />
   <img src="https://img.shields.io/badge/Network%20requests-None-0f766e?style=flat-square" alt="No network requests" />
 </p>
+</details>
 
 <p align="center"><strong>A focused offline review of saved HTTP response headers.</strong></p>
 
