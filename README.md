@@ -3,7 +3,7 @@
 <p align="center"><strong>🔎 Recon Lite</strong> · HTTP response and security-header analysis</p>
 <p align="center">
 <a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#terminal"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/terminal.svg" width="46%" alt="Explore safe security examples" /></a>
-<a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#snake"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/arcade.svg" width="46%" alt="Play the KARMA snake arcade" /></a>
+<a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/#snake"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/nav/arcade.svg" width="46%" alt="Play the Vishwas Aithal snake arcade" /></a>
 </p>
 
 <details><summary>🎨 Open original full-size project artwork</summary>
@@ -106,7 +106,7 @@ Reproducible examples and focused improvements are welcome. See [CONTRIBUTING.md
 
 **RECONNAISSANCE / AUTHORIZED TESTING**
 
-<img src="https://img.shields.io/badge/KARMA-SYSTEMS-0f172a?style=for-the-badge" alt="KARMA Systems" /> <img src="https://img.shields.io/badge/BUILD-VERIFY-0f766e?style=for-the-badge" alt="Build and verify" />
+<img src="https://img.shields.io/badge/Vishwas_Aithal-SYSTEMS-0f172a?style=for-the-badge" alt="Vishwas Aithal Systems" /> <img src="https://img.shields.io/badge/BUILD-VERIFY-0f766e?style=for-the-badge" alt="Build and verify" />
 
 <sub>Designed for clarity. Built for evidence. No invented status metrics.</sub>
 
@@ -116,7 +116,7 @@ Reproducible examples and focused improvements are welcome. See [CONTRIBUTING.md
 
 <!-- KARMA ANIMATED SIGNAL -->
 <p align="center"><img src="assets/karma-signal.svg" alt="recon-lite animated signal graphic" width="100%" /></p>
-<details><summary><strong>🎛 Explore the interactive KARMA universe</strong></summary><p><a href="https://karma-ops-monitor.vercel.app">Launch the music-enabled KARMA homepage</a>. Sound is user-controlled. Motion can be reduced.</p></details>
+<details><summary><strong>🎛 Explore the interactive Vishwas Aithal universe</strong></summary><p><a href="https://karma-ops-monitor.vercel.app">Launch the music-enabled Vishwas Aithal homepage</a>. Sound is user-controlled. Motion can be reduced.</p></details>
 
 
 <!-- KARMA AVATAR GALLERY -->
