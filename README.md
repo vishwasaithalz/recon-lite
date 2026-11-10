@@ -145,17 +145,3 @@ Reproducible examples and focused improvements are welcome. See [CONTRIBUTING.md
 ![recon-lite original animated project signal](assets/karma-motion.gif)
 
 [Download this project's GIF](assets/karma-motion.gif) · [View the animated SVG](assets/karma-signal.svg)
-
-
-<!-- VISHWAS SIGNATURE SIGNAL START -->
-### 🎞 Signature animation / Recon Lite
-
-<p align="center"><a href="https://vishwasaithalz.github.io/vishwasaithalz/"><img src="https://raw.githubusercontent.com/vishwasaithalz/vishwasaithalz/main/assets/arcade-gifs/recon-lite.gif" width="100%" alt="Original Recon Lite header sweep animated signal. Open Vishwas Aithal's single interactive GitHub Pages portfolio." /></a></p>
-
-<p align="center"><strong>Vishwas Aithal / PSYCHKARMA / BOOTDISK 1995</strong><br/>
-<a href="https://vishwasaithalz.github.io/vishwasaithalz/">PRESS START / ONE INTERACTIVE PORTFOLIO</a> ·
-<a href="https://vishwasaithalz.github.io/vishwasaithalz/arcade/">PLAY ARCADE</a> ·
-<a href="https://github.com/vishwasaithalz">GITHUB PROFILE</a></p>
-
-<sub>Original project-specific artwork. This is a visual identity clip, not a live system measurement.</sub>
-<!-- VISHWAS SIGNATURE SIGNAL END -->
