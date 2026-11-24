@@ -41,7 +41,7 @@ class OfflineCliTests(unittest.TestCase):
         data = json.loads(stdout)
         self.assertEqual(data["tool"], "Recon Lite")
         self.assertEqual(data["score"], 100)
-        self.assertIn("No network requests", data["scope"])
+        self.assertIn("no network requests", data["scope"].lower())
 
     def test_explicit_file_export_creates_json_only_once(self):
         path = self.root / "review.json"
