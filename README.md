@@ -68,6 +68,15 @@ JSON output:
 py -3 -m recon_lite samples/headers-example.txt --format json
 ```
 
+Shorter JSON output, or save a new machine-readable evidence file:
+
+```powershell
+py -3 -m recon_lite samples/headers-example.txt --json
+py -3 -m recon_lite samples/headers-example.txt --report .\header-review.json
+```
+
+The `--report` option writes a JSON file on your computer only. It refuses to overwrite an existing file and does not create directories or make network requests. Choose a new filename for each fresh review. Input files may contain sensitive headers, so keep output private.
+
 Run tests:
 
 ```powershell
