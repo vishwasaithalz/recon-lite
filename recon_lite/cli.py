@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from pathlib import Path
 
 from .analyzer import analyze_file
 
@@ -17,6 +18,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("file", help="Path to a raw HTTP header block or JSON header mapping")
     parser.add_argument("--format", choices=("text", "json"), default="text",
                         help="Output format (default: text)")
+    parser.add_argument("--json", action="store_true",
+                        help="Shorthand for --format json, with no network access")
+    parser.add_argument("--report", metavar="FILE",
+                        help="Save JSON review to a NEW local file; never overwrite an existing file")
     return parser
 
 
@@ -28,7 +33,20 @@ def main() -> int:
         print(f"error: {exc}", file=sys.stderr)
         return 2
 
-    if args.format == "json":
+    if args.report:
+        # Exclusive mode avoids silently overwriting prior review evidence.
+        # Never create directories, execute commands or make network requests.
+        destination = Path(args.report).expanduser()
+        try:
+            with destination.open("x", encoding="utf-8") as output:
+                output.write(json.dumps(report, indent=2) + "\n")
+        except OSError as exc:
+            print(f"error: cannot save report to '{destination}': {exc}", file=sys.stderr)
+            return 2
+        print(f"Saved JSON report to {destination}")
+        return 0
+
+    if args.json or args.format == "json":
         print(json.dumps(report, indent=2))
         return 0
 
